@@ -3,7 +3,7 @@ library(stringr)
 
 ## begin by locating data and reading it all in
 ##
-subdir <- "data/UCI HAR Dataset/"
+subdir <- "UCI HAR Dataset/"
 testdir <- paste0(subdir,"test/")
 traindir <- paste0(subdir, "train/")
 
