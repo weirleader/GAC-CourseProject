@@ -19,4 +19,3 @@ Dataset files:
 README.md
 CodeBook.md
 mean_results.txt
-run_analysis.R
