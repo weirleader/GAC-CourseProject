@@ -1,10 +1,12 @@
-Peer Graded Assignment: Getting and Cleaning Data Course Project
+<H2>Peer Graded Assignment: Getting and Cleaning Data Course Project</H2>
 
 script name: run_analysis.R
 
 There is a single script for this assignment.  It is heavily annotated; however, I will reiterate the functionality here.
 
-** Important note: when reading into R, it might 'helpfully' convert special characters (e.g., '-', '(', ')') into points '.'  This may be avoided by using 'check.names = FALSE' in your read.table call.
+************************************************
+Important note: when reading into R, it might 'helpfully' convert special characters (e.g., '-', '(', ')') into points '.'  This may be avoided by using 'check.names = FALSE' in your read.table call.
+************************************************
 
 The script is built to adapt to the data structure of the original zipped files, therefore it expects to find the 'test' and 'train' folders along with their respective files, including: subject_test.txt, X_test.txt, Y_test.txt, subject_train.txt, X_train.txt, Y_train.txt.  It also accesses the activity_labels.txt file as well as features.txt, where we find the descriptive labels for activities tracked in the data and a full list of labels for the types of data collected (column variables).
 
